@@ -30,6 +30,25 @@
   letter-spacing: 1px;
 }
 
+.building-now {
+  margin-top: 40px;
+}
+
+.building-now h4 {
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--accentColor);
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.building-now p {
+  font-size: 24px;
+  opacity: 0.8;
+  font-weight: 400;
+}
+
 @media only screen and (min-width: 600px) {
   .about-section {
     justify-content: center;

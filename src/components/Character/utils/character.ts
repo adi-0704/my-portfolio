@@ -67,8 +67,8 @@ const setCharacter = (
           }
         );
       } catch (err) {
+        console.error("Catch error in loadCharacter:", err);
         reject(err);
-        console.error(err);
       }
     });
   };
